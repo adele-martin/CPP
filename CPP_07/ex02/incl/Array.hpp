@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ARRAY_HPP
+# define ARRAY_HPP
 
 template <class T>
 class Array
@@ -65,3 +66,5 @@ class myException: public std::exception
         return "Error. Array is out of bounds";
     }
 };
+
+#endif

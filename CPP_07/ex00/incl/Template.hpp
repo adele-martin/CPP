@@ -1,4 +1,5 @@
-#pragma once
+#ifndef TEMPLATE_HPP
+# define TEMPLATE_HPP
 
 template <typename T>
 void swap(T& a, T& b)
@@ -29,3 +30,5 @@ T max(T& a, T& b)
     else
         return (b);
 }
+
+#endif
